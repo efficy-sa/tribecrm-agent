@@ -2,13 +2,23 @@
 
 This repository contains documentation and workflow guides for the Claude Code agent working with TribeCRM projects.
 
+## TribeCRM Platform Overview
+
+The TribeCRM platform consists of 5 projects:
+
+1. **tribecrm-api** - Backend (Java/Spring Boot) with dynamic entity system
+2. **tribecrm-app** - Frontend (React/TypeScript) with Material-UI
+3. **tribecrm-authentication** - OAuth/SSO service (Node.js/Express with ORY Hydra)
+4. **tribecrm-test-automation-qa** - E2E and API tests (Cypress)
+5. **tribecrm-agent** - Documentation and AI workflows (this repository)
+
 ## Contents
 
 ### [Tribe_platform_tech_description.md](Tribe_platform_tech_description.md)
 **Tribe Platform Technical Description**
 
 Comprehensive technical documentation covering:
-- **Project Overview**: 4 projects (API, App, Auth, Tests) with technology stack details
+- **Project Overview**: 5 projects (API, App, Auth, Tests, Agent) with technology stack details
 - **Architecture**: Dynamic entity system, multi-tenant CRM, OData 4.10, OAuth2/SSO
 - **Development Workflows**: Git conventions, local setup, building, testing
 - **Deployment**: GKE and App Engine deployment procedures

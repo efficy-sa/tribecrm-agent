@@ -1,6 +1,6 @@
 # Tribe Platform Technical Description
 
-**Last Updated**: 2026-02-03 | **Workspace**: C:\git | **Projects**: 4 (API, App, Auth, Tests)
+**Last Updated**: 2026-02-03 | **Workspace**: C:\git | **Projects**: 5 (API, App, Auth, Tests, Agent)
 
 This document provides comprehensive technical documentation for the TribeCRM platform, including architecture, technology stack, development workflows, and operational procedures.
 
@@ -16,7 +16,8 @@ C:\git\
 ├── tribecrm-api\              # Backend (Java/Spring Boot)
 ├── tribecrm-app\              # Frontend (React/TypeScript)
 ├── tribecrm-authentication\   # OAuth/SSO (Node.js)
-└── tribecrm-test-automation-qa\ # E2E Tests (Cypress)
+├── tribecrm-test-automation-qa\ # E2E Tests (Cypress)
+└── tribecrm-agent\            # Documentation & AI Workflows (Markdown)
 ```
 
 | Env | Frontend | Backend | Auth |
@@ -224,6 +225,27 @@ npx cypress run --env envName=fe-stage,grepTags=@smoke --browser chrome
 ```
 
 **CI/CD**: GitHub Actions (3 workflows), GCP Cloud Build (4 pipelines), Cypress Cloud (4 parallel runners)
+
+### 5. tribecrm-agent (Documentation)
+**Location**: C:\git\tribecrm-agent
+**Purpose**: Documentation repository for AI-assisted development workflows and platform technical descriptions
+
+**Repository**: https://github.com/efficy-sa/tribecrm-agent
+
+**Key Files**:
+- **Tribe_platform_tech_description.md**: Complete technical documentation for all TribeCRM projects
+- **Tribe_Autonomous_Ticket_delivery.md**: Standard workflow for autonomous ticket delivery using Claude Code
+- **README.md**: Repository overview and documentation index
+
+**Content**:
+- Platform architecture and technology stack
+- Project-specific development workflows
+- Jira ticket creation and management procedures
+- GitHub PR workflows with testing requirements
+- Troubleshooting guides for all projects
+- AI-assisted development best practices
+
+**Purpose**: Serves as the central knowledge base for Claude Code when working on TribeCRM projects, ensuring consistent development practices, proper integration with Jira/GitHub, and transparency about AI-generated code contributions.
 
 ## Development Workflows
 
