@@ -1,6 +1,6 @@
-# Claude Code Workflow - TribeCRM Development Process
+# Tribe Autonomous Ticket Delivery - AI-Assisted Development Workflow
 
-This document outlines the standard workflow for using Claude Code to create Jira tickets, branches, commits, and pull requests for the TribeCRM project.
+This document outlines the standard workflow for autonomous ticket delivery using Claude Code to create Jira tickets, branches, commits, and pull requests for the TribeCRM platform.
 
 ## Prerequisites
 

@@ -1,6 +1,8 @@
-# TribeCRM Workspace Guide for Claude Code
+# Tribe Platform Technical Description
 
-**Last Updated**: 2026-01-26 | **Workspace**: C:\git | **Projects**: 4 (API, App, Auth, Tests)
+**Last Updated**: 2026-02-03 | **Workspace**: C:\git | **Projects**: 4 (API, App, Auth, Tests)
+
+This document provides comprehensive technical documentation for the TribeCRM platform, including architecture, technology stack, development workflows, and operational procedures.
 
 ## Quick Reference
 
@@ -353,4 +355,4 @@ npx cypress run --env envName=fe-stage,grepTags=@smoke --browser chrome
 - Cypress Cloud: cloud.cypress.io/projects/sow3it/runs
 
 ---
-**Version 1.2** (2026-01-26): Minified version retaining all critical information
+**Version 1.3** (2026-02-03): Updated for autonomous ticket delivery and repository organization

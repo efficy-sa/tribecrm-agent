@@ -4,22 +4,22 @@ This repository contains documentation and workflow guides for the Claude Code a
 
 ## Contents
 
-### [CLAUDE.md](CLAUDE.md)
-**TribeCRM Workspace Guide for Claude Code**
+### [Tribe_platform_tech_description.md](Tribe_platform_tech_description.md)
+**Tribe Platform Technical Description**
 
-Comprehensive reference documentation covering:
+Comprehensive technical documentation covering:
 - **Project Overview**: 4 projects (API, App, Auth, Tests) with technology stack details
 - **Architecture**: Dynamic entity system, multi-tenant CRM, OData 4.10, OAuth2/SSO
 - **Development Workflows**: Git conventions, local setup, building, testing
 - **Deployment**: GKE and App Engine deployment procedures
 - **Troubleshooting**: Common issues and solutions for all projects
 
-This guide provides Claude Code with complete context about the TribeCRM workspace structure, conventions, and best practices.
+This document provides complete technical context about the TribeCRM platform structure, architecture, conventions, and operational procedures.
 
-### [CLAUDE_CODE_WORKFLOW.md](CLAUDE_CODE_WORKFLOW.md)
-**Claude Code Development Workflow for TribeCRM**
+### [Tribe_Autonomous_Ticket_delivery.md](Tribe_Autonomous_Ticket_delivery.md)
+**Tribe Autonomous Ticket Delivery Workflow**
 
-Standard workflow documentation for AI-assisted development:
+Standard workflow documentation for autonomous AI-assisted development:
 1. **Create Jira Ticket** - Required fields, metadata, AI-generated code notice
 2. **Create Branch** - Branch naming conventions
 3. **Implement Changes** - Code review checklist
