@@ -1,0 +1,62 @@
+# TribeCRM Agent Documentation
+
+This repository contains documentation and workflow guides for the Claude Code agent working with TribeCRM projects.
+
+## Contents
+
+### [CLAUDE.md](CLAUDE.md)
+**TribeCRM Workspace Guide for Claude Code**
+
+Comprehensive reference documentation covering:
+- **Project Overview**: 4 projects (API, App, Auth, Tests) with technology stack details
+- **Architecture**: Dynamic entity system, multi-tenant CRM, OData 4.10, OAuth2/SSO
+- **Development Workflows**: Git conventions, local setup, building, testing
+- **Deployment**: GKE and App Engine deployment procedures
+- **Troubleshooting**: Common issues and solutions for all projects
+
+This guide provides Claude Code with complete context about the TribeCRM workspace structure, conventions, and best practices.
+
+### [CLAUDE_CODE_WORKFLOW.md](CLAUDE_CODE_WORKFLOW.md)
+**Claude Code Development Workflow for TribeCRM**
+
+Standard workflow documentation for AI-assisted development:
+1. **Create Jira Ticket** - Required fields, metadata, AI-generated code notice
+2. **Create Branch** - Branch naming conventions
+3. **Implement Changes** - Code review checklist
+4. **Test with Playwright** - Mandatory testing before commits
+5. **Commit Changes** - Conventional Commits format
+6. **Push to Remote** - Git push procedures
+7. **Create Pull Request** - Base branch verification (master-rsbuild)
+8. **Update Jira Ticket** - Status transitions and field verification
+
+Includes checklists, examples, and important notes on Git safety, Jira requirements, GitHub requirements, and testing requirements.
+
+## Purpose
+
+This repository serves as the central knowledge base for Claude Code when working on TribeCRM projects. It ensures:
+- Consistent development practices across all TribeCRM projects
+- Proper integration with Jira, GitHub, and testing workflows
+- Compliance with team conventions and quality standards
+- Transparency about AI-generated code contributions
+
+## Usage
+
+These documents are referenced by Claude Code during development sessions to:
+- Understand the TribeCRM workspace structure
+- Follow standardized workflows for tickets, branches, commits, and PRs
+- Apply proper testing procedures with Playwright MCP
+- Maintain code quality and team conventions
+
+## Maintenance
+
+This documentation should be updated when:
+- Workflow processes change
+- New projects are added to the workspace
+- Team conventions evolve
+- Tool configurations are modified
+
+---
+
+**Organization**: efficy-sa
+**Team**: Tribe
+**Last Updated**: 2026-02-03
